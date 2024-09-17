@@ -1,0 +1,138 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main container styling */
+.main-container {
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    padding-top: 40px;
+    width: 900px;
+    position: absolute;
+    left: 200px;
+    height: 1100px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header styles */
+.header {
+    height: 250px;
+    background-color: rgb(249, 222, 188);
+}
+
+/* Sidebar styles */
+.sidebar {
+    height: 100%;
+    width: 240px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    background-color: rgb(29, 222, 203);
+    display: flex;
+    justify-content: center;
+}
+
+#picture {
+    height: 200px;
+    width: 200px;
+    border: 3px solid #99f9e680;
+    position: absolute;
+    top: 60px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0px 0px 50px rgb(249, 249, 252);
+}
+
+/* Header text */
+.h1 {
+    top: 80px;
+    position: relative;
+    left: 300px;
+}
+
+/* Progress section styles */
+.progess {
+    height: 100%;
+    width: 67.8%;
+    position: absolute;
+    right: 0;
+}
+
+.detail {
+    padding: 50px;
+}
+
+.detail h2, h3 {
+    padding-left: 50px;
+}
+
+/* About section styles */
+.about {
+    top: 260px;
+    position: absolute;
+    padding: 20px;
+    text-align: justify;
+}
+
+/* Skills section styling */
+#skills {
+    padding: 10px;
+    text-align: center;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px 0;
+}
+
+#skills li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#skills li:hover {
+    transform: scale(1.05);
+    background-color: #d8eaff;
+}
+
+/* Skills button styling */
+#button {
+    height: 40px;
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 0px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#button:hover {
+    background-color: #45a049;
+}
+
+/* List item alignment */
+li {
+    text-align: center;
+}
+
+.button-main{
+    width: 100%;
+    padding-left: 30px;
+}
